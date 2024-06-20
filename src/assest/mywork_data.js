@@ -40,7 +40,7 @@ const mywork_data={
     one: require("../assest/port.jpg"),
     two: require("../assest/project_7.jpg"),
     // six: require("../assest/project_3.svg"),
-    three: require("../assest/no.jpg"),
+    three: require("../assest/boot.png"),
     four: require("../assest/messi.jpg"),
     five: require("../assest/no.jpg"),
 

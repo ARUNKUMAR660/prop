@@ -13,10 +13,19 @@ const Mywork = () => {
         <img src={theme_pattern} alt="" />
       </div>
       <div className="mywork-container">
-         
-        <img src={mywork_data.one} alt="" />
-        <img src={mywork_data.two} alt="" />
-        <img src={mywork_data.three} alt="" />
+        <div className='link'>
+           <img src={mywork_data.one} alt="" />
+           <a href="https://arunkumar660.github.io/spices/">link</a>
+        </div> 
+        <div className='link'>
+           <img src={mywork_data.two} alt="" />
+           <a href="https://arunkumar660.github.io/spices/">link</a>
+           
+        </div>
+        <div>
+            <img src={mywork_data.three} alt="" />
+            <a href="https://arunkumar660.github.io/bootstrap2/">link</a>
+        </div>
         {/* <img src={mywork_data.four} alt="" />
 
         <img src={mywork_data.five} alt="" />
@@ -27,6 +36,7 @@ const Mywork = () => {
       <div className='mywork-showmore'>
         <p>show more</p>
         <img src={arrow_icon} alt="" />
+
       </div>
       
     </div>
